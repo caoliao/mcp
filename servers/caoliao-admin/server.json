@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "im.cli/caoliao-admin",
+  "title": "草料二维码 · 管理端 (CaoLiao QR Code Admin)",
+  "description": "Create and manage CaoLiao QR codes, forms and records for your organization. OAuth required.",
+  "version": "0.1.0",
+  "websiteUrl": "https://cli.im/open-api/agent/open-platform-mcp.html",
+  "repository": {
+    "url": "https://github.com/caoliao/mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://open.cli.im/mcp"
+    }
+  ]
+}

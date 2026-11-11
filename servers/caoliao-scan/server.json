@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "im.cli/caoliao-scan",
+  "title": "草料二维码 · 扫码端 (CaoLiao QR Code Scan-side)",
+  "description": "Read the public content, history and available forms behind one CaoLiao QR code. No login.",
+  "version": "0.1.0",
+  "websiteUrl": "https://cli.im/open-api/agent/public-mcp/quick-start.html",
+  "repository": {
+    "url": "https://github.com/caoliao/mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.objqr.com/mcp"
+    }
+  ]
+}
